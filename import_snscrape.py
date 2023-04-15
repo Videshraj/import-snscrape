@@ -1,7 +1,9 @@
-pip install snscrape
-pip install pandas
-pip install pymongo
-pip install streamlit
+import os
+
+os.system('pip install snscrape')
+os.system('pip install pandas')
+os.system('pip install pymongo')
+os.system('pip install streamlit')
 import snscrape
 import pandas as pd
 from pymongo import MongoClient
