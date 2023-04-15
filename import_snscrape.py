@@ -1,3 +1,6 @@
+pip install snscrape
+pip install pandas 
+pip install pymongo
 import snscrape
 import pandas as pd
 from pymongo import MongoClient
