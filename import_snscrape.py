@@ -4,7 +4,7 @@ os.system('pip install snscrape')
 os.system('pip install pandas')
 os.system('pip install pymongo')
 os.system('pip install streamlit')
-import snscrape.modules.twitter
+import snscrape
 import pandas as pd
 from pymongo import MongoClient
 import streamlit as st
